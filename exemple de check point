@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>service medicale</title>
+    </head>
+    <body>
+          <!--Entete de la page-->
+         <header>
+             <!--Navigation de la page web-->
+             <nav>
+                 <ul>
+                     <li><a href="#"> accueil</a></li>
+                     <li><a href="#apropos">a propos</a></li>
+                      <li><a href="#travail">travail</a></li>
+                      <li><a href="#cv">CV</a></li>
+                      <li><a href="#contact">Contact</a></li>
+                 </ul>  
+            </nav>
+          </header>
+          <hr/>
+
+          <!--Contenu principal-->
+          <main>
+
+              <!-- section a propos-->
+               <section id="apropos">
+                     <h3>A propos</h3>
+                      <p>
+                           Salut, je suis Philippe Brou, etudiant en developpement web
+                            fullstack a GOMYCODE. 
+                           Je suis un passionné des nouvelles technologies, pour y parvenir je dois etre apte a ecrire un code. 
+                       
+                      </p>
+               </section>
+
+               <!-- section travail-->
+               <section id="travail">
+                  <h3>Travail</h3>
+
+                  <div>
+                      <h5>le service medicale du district d Abidjan</h5> 
+                       <p>
+                            "je suis dans le domaine medicale dans une institution de la place ou je suis gestionnaire de base de donnees
+je m`occupe de tout ce qui est donnee et participe a fluidifie les informations medicales dont les responsables ont besoin de manieres digitales."
+                       </p>
+
+                       <h5>la bonne prise en charge est notre vocation</h5> 
+                       <p>
+                            "La bonne santé des travailleurs représente un enjeu important pour les entreprises, puisqu’elle est le gage d’une meilleure productivité.
+C’est pourquoi nos équipes de médecins du travail et d’infirmiers en pratique avancée en santé au travail, vous accompagnent pour le suivi médical individuel de vos salariés.
+Le suivi individuel s’effectue au cours de différentes visites règlementaires.
+La visite d’embauche consiste à évaluer l’aptitude au poste du travail des candidats à l’embauche.
+La visite périodique s’effectue tous les ans pour les travailleurs en poste afin de s’assurer du maintien de l’aptitude au poste du travail.
+Les visites spéciales sont réalisées chez les travailleurs dont le poste nécessite une surveillance médicale renforcée.
+La visite de reprise du travail réalisée après une absence pour cause de maladie professionnelle ou d’accident du travail, de congé de maternité, après une absence d’au moins 30 jours pour cause de maladie ou d’accident non professionnel.
+La visite à la demande, de l’agent, de l’employeur ou du médecin du travail, en cas de besoin ou en cas d’exposition inhabituelle.
+La surveillance post-exposition, recommandée chez les travailleurs après la fin de l’exposition au risque ou à la cessation d’activité.
+Lors de ces visites, le salarié bénéficie de l’écoute, des conseils, de l’information du professionnel de santé qu’il rencontre. Le salarié est aussi sensibilisé à la prévention des risques afférents à son activité.
+Nous permettons ainsi au chef d’entreprise de respecter la règlementation en vigueur ; les visites médicales étant une obligation réglementaire (art 43.1 et 2 de la Loi n°2015-532 du 20 juillet 2015 portant code du travail ivoirien) !."
+                       </p>
+                       <figure>
+                             <img src="https://servicepublic.gouv.ci>
+                       </figure>
+                  </div>
+               </section>
+
+               <!-- section CV-->
+                <section id="cv">
+                    <h3>CV</h3>
+
+                       <figure>
+                             <img src="https://www.google.com/search?sca_esv=1345533643b5776c&sca_upv=1&sxsrf=ADLYWIKdqm-d_BrAGrruwiuTAomFyFqYZA:1727544701711&q=cv+gratuit+en+ligne&udm=2&fbs=AEQNm0CbCVgAZ5mWEJDg6aoPVcBgTlosgQSuzBMlnAdio07UCFdb4kkCZQx4-ERIk5vUh0hWbBcn17qhcg4G1UyOj4BlKXem91ToXWvZ18HADURY-bfzCRw_l7IPOSmGXy7EFburxJE6AY5ZSgTaz9MuIFdb_fmJCDuaJxncewaBs4QX4TWsbIVugLFZ38b7-aWo-a1hCUga&sa=X&ved=2ahUKEwj1tZ3CleaIAxWAS_EDHRWYJDUQtKgLegQIFhAB&biw=1366&bih=641&dpr=1#vhid=B4gpgo6M2Rd4kM&vssid=mosaic>
+                       </figure>
+                </section>
+
+                <!-- section CONTACT-->
+                <section id="contact">
+                    <h3>Contact</h3>
+
+                    <form>
+                         <div>
+                            <label for="nom">Nom</label>
+                             <input type="text"  id="nom" /> 
+                         </div>
+                           <br/>
+                          
+
+                           <div>
+                               <label for="prenom">Prenom</label>
+                               <input type="text"  id="prenom" /> 
+                         </div>
+                         <br/>
+                         
+                          
+                         <div>
+                              <label for="email">Email</label>
+                             <input type="email"  id="email" />  
+                         </div>
+                         <br/>
+                        <div>
+                          <label for="message">Message</label>
+                          <textarea id="message"></textarea> 
+                         </div>
+                          <br/>
+
+                         <button type="submit">Envoyer</button>
+                    </form>
+                    
+                </section>
+         </main>
+         <hr/>
+
+         <!--Pied de page-->
+         <footer>
+             <p>
+               <a href="www.google.com">google</a>
+               <a href="www.linkedin.com">LinkedIn</a>
+             </p> 
+              <p>&copy; servicepublic.gouv.ci ALL RIGHTS RESERVED </p>
+         </footer>
+    </body>
+</html>
+
+
